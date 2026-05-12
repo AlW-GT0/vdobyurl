@@ -110,7 +110,7 @@ def get_rendered_content(url, path=None, write=1):
 
 if __name__ == "__main__":
     # 使用示例
-    url = "https://.pro:8869/"
+    url = "https://km.yvp1.pro:8869/"
     rendered_html = get_rendered_content(url, "./html/rendered_page.html")
     if rendered_html:
         soup = BeautifulSoup(rendered_html, 'html.parser')
